@@ -32,8 +32,7 @@ The needed data is listed in the file of 'config.yml'.
 6) annFile: it is the file for evalation, contains ground truth sentences of evaluation images
 
 7) VG_SGG_dictsFile: the index of relations 
-    ---'predicate_to_idx': the key is index of the relation, the value is the relation. such as 'says': 49
-    ---'idx_to_predicate': the key is the relation, the value is the index of the relation. such as 49:'say'
+
 
 
 
