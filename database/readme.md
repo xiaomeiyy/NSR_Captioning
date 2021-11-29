@@ -9,11 +9,11 @@
       
 3) UP_box_dir: the directory contains '.pkl' files of node representations and node probabilities. the structre of one '.pkl' file contains
 
-    ---'features': the representaions of the nodes, n x 2048 
+    ---'features': the representaions of the nodes 
     
-    ---'boxes': the bboxes of the nodes, n x 4 
+    ---'boxes': the bboxes of the nodes
     
-    ---'boxscores': the propabities of nodes on the node labels, n x 1601(1600 node labels + 1 no label)
+    ---'boxscores': the propabities of nodes on the node labels
     
     
 4) [cocotalk_label.h5](https://drive.google.com/file/d/1g6XYiCF7KTZS4HIQkiM2AtLT00lsYVC9/view?usp=sharing) contains the information of the ground truth sentences for all images.
