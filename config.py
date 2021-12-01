@@ -51,15 +51,15 @@ __C.input_encoding_size=512
 __C.id = 'cap_model_name'
 __C.id_model = 'test_model'
 __C.cached_tokens = 'coco-train-idxs'
-__C.input_att_dir = '/home/wxm/DATASET/cocoK_fea/cocobu/cocobu_att/'
-__C.input_fc_dir = '/home/wxm/DATASET/cocoK_fea/cocobu/cocobu_fc'
-__C.input_rel_dir = '/home/wxm/DATASET/cocoK_fea/cocobu/cocobu_rel'
-__C.input_json = '/home/wxm/DATASET/cocoK_fea/cocotalk.json'
-__C.input_label_h5 = '/home/wxm/DATASET/cocoK_fea/cocotalk_label.h5'
-__C.annFile = '/home/wxm/exp_wxm/ImageCaption_P1/tools/coco_caption/annotations/captions_val2014.json'
-__C.VG_SGG_dictsFile = '/home/wxm/DATASET/visual_genome/VG-SGG-dicts.json'
-__C.UP_box_dir = '/home/wxm/DATASET/MSCOCO2014/sv_wxmboxes/'
-__C.Obj_glove_file = '/home/wxm/DATASET/MSCOCO2014/object1600_glove.pkl/'
+__C.input_att_dir = 'cocobu_att/'
+__C.input_fc_dir = 'cocobu_fc'
+__C.input_rel_dir = 'cocobu_rel'
+__C.input_json = 'cocotalk.json'
+__C.input_label_h5 = 'cocotalk_label.h5'
+__C.annFile = 'captions_val2014.json'
+__C.VG_SGG_dictsFile = 'VG-SGG-dicts.json'
+__C.UP_box_dir = 'sv_wxmboxes/'
+__C.Obj_glove_file = 'object1600_glove.pkl/'
 __C.caption_model = 'deeplstm'
 __C.vocab_size = 0
 __C.num_layers = 1
@@ -89,7 +89,7 @@ __C.noamopt = False
 
 __C.seed = 1
 
-__C.split_nocfile = '/home/xiaomeiwang/...'
+__C.split_nocfile = 'split_noc_coco.json'
 __C.split_noc = False
 __C.top_num = 40
 
