@@ -1,18 +1,12 @@
 DATASET_NAME: 'coco'
 EMBEDDING_TYPE: 'glove'
 Z_DIM: 100
-#IMAGE_DIR: '/home/wxm/DATASET/Flickr30k/unzipFile/flickr30k_images/images/'
-#IMAGE_DIR: '/home/wxm/DATASET/COCO2017/unzipfile/'
-#IMAGE_DIR: '/home/wxm/DATASET/COCO2014/unzipfile/'
-#IMSIZE: 64
 WORKERS: 1
 TRAIN:
    BATCH_SIZE: 10   ## 32 64
    MAX_EPOCH: 100 ## 50 100 120
 
 seed: 20
-# TEXT:
-#     DIMENSION: 512
 
 id: 'transformer'  ## topdown deeplstm NSM transformer
 id_model: 'transf_nsm_bili'
@@ -32,15 +26,15 @@ rnn_size: 1024
 input_encoding_size: 1024
 
 
-input_rel_dir: '../database/sv_wxmrelnpy/'
-input_json: '../database/cocotalk_glove.pkl'
-UP_box_dir: '../database/sv_wxmboxes/'
-input_label_h5: '../database/cocotalk_label.h5'
+input_rel_dir: 'database/sv_wxmrelnpy/'
+input_json: 'database/cocotalk_glove.pkl'
+UP_box_dir: 'database/sv_wxmboxes/'
+input_label_h5: 'database/cocotalk_label.h5'
 
-Obj_glove_file: '../database/objects1600_glove.pkl'
-annFile: '/home/wxm/DATASETS/MSCOCO/captions2_val2014.json'
-VG_SGG_dictsFile: '../database/VG-SGG-dicts.json'
-split_nocfile: '../database/split_noc_coco.json'
+Obj_glove_file: 'database/objects1600_glove.pkl'
+annFile: 'database/captions_val2014.json'
+VG_SGG_dictsFile: 'database/VG-SGG-dicts.json'
+split_nocfile: 'database/split_noc_coco.json'
 
 
 
